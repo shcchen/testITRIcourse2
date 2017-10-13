@@ -18,6 +18,7 @@ public class ScoreToLetterGradeTest extends TestCase {
 		assertEquals(ScoreToLetterGrade.letterGrade(89),'B');
 		assertEquals(ScoreToLetterGrade.letterGrade(80),'B');
 		assertEquals(ScoreToLetterGrade.letterGrade(70),'C');
+		assertEquals(ScoreToLetterGrade.letterGrade(65),'D');
 		assertEquals(ScoreToLetterGrade.letterGrade(60),'D');
 		assertEquals(ScoreToLetterGrade.letterGrade(59),'F');
 	}
@@ -26,6 +27,6 @@ public class ScoreToLetterGradeTest extends TestCase {
 		assertEquals(ScoreToLetterGrade.letterGrade(101),'X');
 	}
 	public void testLetterGrade3(){
-		assertEquals(ScoreToLetterGrade.letterGrade(0),'X');
+		assertEquals(ScoreToLetterGrade.letterGrade(0),'F');
 	}
 }
